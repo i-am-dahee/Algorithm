@@ -5,10 +5,10 @@ public class Main {
         
         Scanner sc = new Scanner(System.in);
         
-        int A = sc.nextInt();
-        int B = sc.nextInt();
+        double A = sc.nextDouble();
+        double B = sc.nextDouble();
         
-        System.out.println((double)A / B);
+        System.out.println(A / B);
         
         sc.close();
     }
